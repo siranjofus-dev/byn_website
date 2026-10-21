@@ -1,0 +1,14 @@
+{
+  "name": "byn-website",
+  "version": "1.0.0",
+  "description": "BYN Website & SFA Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "serve": "node server.js"
+  },
+  "keywords": [],
+  "author": "Build Your Name",
+  "license": "ISC"
+}

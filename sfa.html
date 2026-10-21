@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BYN SFA | Field Sales Force Automation Software for Africa</title>
+  <meta name="description" content="BYN SFA is the field sales operating system for African distributors and FMCG brands. Automate van deliveries, manager credit approvals, retail shelf audits, and cashless M-Pesa collections.">
+  <link rel="canonical" href="https://buildyourname.africa/sfa/">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .sfa-hero-gradient {
+      background: linear-gradient(135deg, var(--color-navy) 0%, #061A2F 100%);
+      color: white;
+      padding: 4.5rem 0 5rem 0;
+    }
+    .role-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .role-card {
+      background: white;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-xl);
+      padding: 1.75rem;
+      box-shadow: var(--shadow-sm);
+      display: flex;
+      flex-direction: column;
+    }
+    .role-badge {
+      display: inline-block;
+      padding: 0.25rem 0.65rem;
+      border-radius: var(--radius-sm);
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      width: fit-content;
+    }
+    .badge-ceo { background: #FEF3C7; color: #B45309; }
+    .badge-manager { background: #E0F2FE; color: #0369A1; }
+    .badge-supervisor { background: #CCFBF1; color: #0F766E; }
+    .badge-rep { background: #F3E8FF; color: #7E22CE; }
+    .roadmap-timeline {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2.5rem;
+    }
+    .roadmap-step {
+      background: white;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: 1.5rem;
+      position: relative;
+    }
+    .step-number {
+      font-size: 1.8rem;
+      font-weight: 800;
+      color: var(--color-teal);
+      line-height: 1;
+      margin-bottom: 0.5rem;
+    }
+    .step-days {
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--color-text-muted);
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body style="background-color: #F8FAFC;">
+
+  <!-- Accessible Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-notice-bar" style="background:#071426;">
+    <div class="container top-notice-content">
+      <div>
+        <span>🚚 <strong>BYN SFA Platform:</strong> Operating across 140+ Distribution Vans in Kenya &amp; East Africa</span>
+      </div>
+      <div style="display:flex; align-items:center; gap:1.2rem;">
+        <a href="tel:+254725242203" style="color:rgba(255,255,255,0.9); font-weight:600;">📞 +254 725 242 203</a>
+        <a href="#demo" class="text-gold" style="font-weight:700;">Book Demo Session →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Site Header with Mega Menu -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="Build Your Name Homepage">
+        <div class="brand-icon-box" style="background:var(--color-teal); color:white;">SFA</div>
+        <div class="brand-text">
+          <span class="brand-title">BYN SFA</span>
+          <span class="brand-tagline">Sales Force Automation</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" aria-label="Primary Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        
+        <!-- Services Mega Menu Dropdown -->
+        <div class="nav-item-dropdown">
+          <a href="services.html" class="nav-link nav-link-dropdown">
+            Services <span class="dropdown-arrow">▼</span>
+          </a>
+          <div class="mega-menu-box" role="region" aria-label="Services Mega Menu">
+            <div class="mega-menu-grid">
+              <div>
+                <div class="mega-col-title">👁️ Get Seen</div>
+                <div class="mega-links-list">
+                  <a href="services.html#web-design" class="mega-link-item">
+                    <span class="mega-link-name">Website Design</span>
+                    <span class="mega-link-desc">Sub-600KB custom block themes</span>
+                  </a>
+                  <a href="services.html#ecommerce" class="mega-link-item">
+                    <span class="mega-link-name">eCommerce Websites</span>
+                    <span class="mega-link-desc">M-Pesa STK push &amp; checkout</span>
+                  </a>
+                  <a href="services.html#ui-ux" class="mega-link-item">
+                    <span class="mega-link-name">UI/UX Design</span>
+                    <span class="mega-link-desc">Figma prototypes &amp; design systems</span>
+                  </a>
+                  <a href="services.html#care" class="mega-link-item">
+                    <span class="mega-link-name">Website Care</span>
+                    <span class="mega-link-desc">Daily backups, SLA &amp; security</span>
+                  </a>
+                </div>
+              </div>
+
+              <div>
+                <div class="mega-col-title">🔍 Get Found</div>
+                <div class="mega-links-list">
+                  <a href="services.html#seo" class="mega-link-item">
+                    <span class="mega-link-name">SEO Services</span>
+                    <span class="mega-link-desc">Local SEO &amp; Google Map 3-Pack</span>
+                  </a>
+                  <a href="services.html#ads" class="mega-link-item">
+                    <span class="mega-link-name">Google Ads</span>
+                    <span class="mega-link-desc">Search, Shopping &amp; remarketing</span>
+                  </a>
+                  <a href="services.html#social" class="mega-link-item">
+                    <span class="mega-link-name">Social Media</span>
+                    <span class="mega-link-desc">B2B paid &amp; organic campaigns</span>
+                  </a>
+                  <a href="services.html#content" class="mega-link-item">
+                    <span class="mega-link-name">Content &amp; PR</span>
+                    <span class="mega-link-desc">Sponsored placement in Kenyan media</span>
+                  </a>
+                </div>
+              </div>
+
+              <div>
+                <div class="mega-col-title">💰 Get Paid</div>
+                <div class="mega-links-list">
+                  <a href="services.html#gis" class="mega-link-item">
+                    <span class="mega-link-name">Location Intelligence</span>
+                    <span class="mega-link-desc">GIS mapping &amp; market density</span>
+                  </a>
+                  <a href="sfa.html" class="mega-link-item">
+                    <span class="mega-link-name">BYN SFA Platform</span>
+                    <span class="mega-link-desc">Field sales force automation</span>
+                  </a>
+                  <a href="pricing.html#bundles" class="mega-link-item">
+                    <span class="mega-link-name">Growth Bundles</span>
+                    <span class="mega-link-desc">Brand, Growth &amp; Amplifier packs</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="mega-footer-row">
+              <span style="color:var(--color-text-muted);">Looking for agency services?</span>
+              <a href="services.html" style="font-weight:700; color:var(--color-teal);">Explore Services Hub →</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SFA Dropdown Menu -->
+        <div class="nav-item-dropdown">
+          <a href="sfa.html" class="nav-link nav-link-dropdown active">
+            BYN SFA <span class="nav-badge" style="background:var(--color-teal); color:white;">Software</span> <span class="dropdown-arrow">▼</span>
+          </a>
+          <div class="sfa-dropdown-box" role="region" aria-label="BYN SFA Menu">
+            <a href="sfa.html#deliveries" class="mega-link-item">
+              <span class="mega-link-name">🚚 Smart Deliveries</span>
+              <span class="mega-link-desc">GPS proof of delivery &amp; van routes</span>
+            </a>
+            <a href="sfa.html#approvals" class="mega-link-item">
+              <span class="mega-link-name">⚡ Instant Approvals</span>
+              <span class="mega-link-desc">Manager credit &amp; discount sign-off</span>
+            </a>
+            <a href="sfa.html#audits" class="mega-link-item">
+              <span class="mega-link-name">📸 Shelf Space Audits</span>
+              <span class="mega-link-desc">Photo checks &amp; planograms</span>
+            </a>
+            <a href="sfa.html#collections" class="mega-link-item">
+              <span class="mega-link-name">💳 Cashless Collections</span>
+              <span class="mega-link-desc">Daily M-Pesa balancing &amp; ERP sync</span>
+            </a>
+            <div style="margin-top:0.5rem; padding-top:0.5rem; border-top:1px solid var(--color-border);">
+              <a href="#demo" class="btn btn-sm btn-teal" style="width:100%; text-align:center;">Book a 20-min Demo</a>
+            </div>
+          </div>
+        </div>
+
+        <a href="pricing.html" class="nav-link">Pricing</a>
+        <a href="work.html" class="nav-link">Work</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="insights.html" class="nav-link">Insights</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Header CTAs -->
+      <div class="header-actions">
+        <a href="#demo" class="btn btn-sm btn-teal">
+          Request Demo
+        </a>
+        <button class="btn btn-sm btn-gold" data-whatsapp-msg="SFA: Hello BYN team, I would like to schedule an SFA demonstration.">
+          WhatsApp Us
+        </button>
+
+        <button class="mobile-toggle" id="mobileNavToggle" aria-label="Open mobile menu" aria-expanded="false">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav" id="mobileNavDrawer" aria-hidden="true">
+    <div class="mobile-nav-header">
+      <div style="display:flex; align-items:center; gap:0.6rem;">
+        <div class="brand-icon-box" style="background:var(--color-teal); color:white;">SFA</div>
+        <span style="font-family:var(--font-heading); font-weight:800; font-size:1.2rem;">BYN SFA</span>
+      </div>
+      <button id="mobileNavClose" style="background:none; border:none; color:white; font-size:1.8rem; cursor:pointer;" aria-label="Close menu">&times;</button>
+    </div>
+
+    <div class="mobile-nav-list">
+      <a href="index.html" class="mobile-nav-link">Home <span>→</span></a>
+      <a href="services.html" class="mobile-nav-link">Services Hub <span>→</span></a>
+      <a href="sfa.html" class="mobile-nav-link" style="color:var(--color-teal);">BYN SFA Software <span>→</span></a>
+      <a href="pricing.html" class="mobile-nav-link">Pricing &amp; Bundles <span>→</span></a>
+      <a href="work.html" class="mobile-nav-link">Verified Work <span>→</span></a>
+      <a href="about.html" class="mobile-nav-link">About &amp; Fact Sheet <span>→</span></a>
+      <a href="insights.html" class="mobile-nav-link">Insights &amp; Blog <span>→</span></a>
+      <a href="free-website-check.html" class="mobile-nav-link">Free Speed Check <span>→</span></a>
+      <a href="contact.html" class="mobile-nav-link">Contact Hub <span>→</span></a>
+    </div>
+
+    <div class="mobile-nav-footer">
+      <div style="font-size:0.85rem; color:rgba(255,255,255,0.7); margin-bottom:0.75rem;">
+        Direct Inquiries: <a href="tel:+254725242203" style="color:white; font-weight:700;">+254 725 242 203</a>
+      </div>
+      <button class="btn btn-teal btn-block" data-whatsapp-msg="SFA: Hello BYN team, I would like to schedule an SFA demonstration.">
+        Chat with SFA Engineer on WhatsApp
+      </button>
+    </div>
+  </div>
+
+  <main id="main-content">
+
+    <!-- HERO SECTION: EXACT H1 & SUBTITLE AS REQUIRED BY BRIEF PAGE 13 -->
+    <section class="sfa-hero-gradient">
+      <div class="container" style="text-align:center;">
+        <div style="max-width:880px; margin:0 auto;">
+          <span class="section-tag" style="background:rgba(31,138,136,0.25); color:#2DD4BF; margin-bottom:1.25rem;">
+            Enterprise Distribution Engine · Kenya &amp; East Africa
+          </span>
+          <h1 style="color:white; font-size:clamp(2.1rem, 4.2vw, 3.3rem); line-height:1.2; margin-bottom:1.25rem;">
+            BYN SFA: the operating system for your field sales team
+          </h1>
+          <p class="lead" style="color:rgba(255,255,255,0.88); font-size:1.15rem; line-height:1.7; margin-bottom:2rem;">
+            Van sales, route planning, real-time stock, mobile orders, live GPS, and field team performance — built for FMCG brands, distributors, and field operations in East Africa.
+          </p>
+          <div style="display:flex; justify-content:center; gap:1.2rem; flex-wrap:wrap;">
+            <a href="#demo" class="btn btn-teal btn-lg">Book 20-min Live Demo</a>
+            <button class="btn btn-outline-white btn-lg" data-whatsapp-msg="SFA: Hello BYN team, we operate distribution vans and want to evaluate BYN SFA.">
+              Inquire via WhatsApp
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE FIVE-PART ORGANIZING SPINE -->
+    <section class="section section-bg-white" style="border-bottom:1px solid var(--color-border);">
+      <div class="container">
+        <div class="section-header" style="text-align:center;">
+          <span class="section-tag teal">Unified Architecture</span>
+          <h2>The 5-Step Organizing Spine</h2>
+          <p class="lead">How BYN connects online demand generation directly to physical field sales execution.</p>
+        </div>
+
+        <div class="spine-timeline">
+          <div class="spine-step-card">
+            <div class="spine-num">01</div>
+            <h3 class="spine-title">Website</h3>
+            <p class="spine-desc">The best website sells. Sub-1.2s speed on Safaricom 4G.</p>
+          </div>
+          <div class="spine-step-card">
+            <div class="spine-num">02</div>
+            <h3 class="spine-title">Attribution</h3>
+            <p class="spine-desc">Clicks aren't revenue. Direct tracking to real phone calls.</p>
+          </div>
+          <div class="spine-step-card">
+            <div class="spine-num">03</div>
+            <h3 class="spine-title">Deliveries</h3>
+            <p class="spine-desc">Every delivery. Seen in real time. Van route GPS proofs.</p>
+          </div>
+          <div class="spine-step-card">
+            <div class="spine-num">04</div>
+            <h3 class="spine-title">Approvals</h3>
+            <p class="spine-desc">Approvals in minutes. Mobile manager discount sign-off.</p>
+          </div>
+          <div class="spine-step-card">
+            <div class="spine-num">05</div>
+            <h3 class="spine-title">Shelves</h3>
+            <p class="spine-desc">Every shelf. Verified. Photo audits and competitor pricing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 CORE SFA CAPABILITY MODULES (DETAILED) -->
+    <section class="section" id="modules">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag teal">Distribution Capabilities</span>
+          <h2>Four Interlocked Distribution Modules</h2>
+          <p class="lead">Everything your drivers, field merchandisers, and sales directors need on one synchronized platform.</p>
+        </div>
+
+        <!-- 1. Deliveries -->
+        <div class="grid grid-2" id="deliveries" style="align-items:center; margin-bottom:4rem; gap:2.5rem;">
+          <div>
+            <span class="section-tag teal">Module 1 · Logistics</span>
+            <h3 style="font-size:1.85rem; margin-bottom:1rem;">Smart Van Deliveries &amp; Route Geofencing</h3>
+            <p style="color:var(--color-text-muted); line-height:1.7;">
+              Ensure your drivers follow their assigned sequence without taking unauthorized detours. Drivers record deliveries with customer digital signatures, geotagged photos, and automatic inventory decrements directly inside the van.
+            </p>
+            <ul style="font-size:0.9rem; line-height:1.8; margin-bottom:1.5rem; padding-left:1.25rem;">
+              <li><strong>Turn-by-turn Beat Sequences:</strong> Optimized daily routes saving 15–20% on vehicle diesel.</li>
+              <li><strong>Offline Order Generation:</strong> Works seamlessly in basement shops, rural towns, and offline areas.</li>
+              <li><strong>Proof of Delivery (POD):</strong> Real-time timestamp, GPS coordinate, and digital customer signature.</li>
+            </ul>
+          </div>
+          <div style="background:white; border:1px solid var(--color-border); border-radius:var(--radius-xl); padding:2rem; box-shadow:var(--shadow-sm);">
+            <div style="font-weight:700; color:var(--color-teal); font-size:0.85rem; text-transform:uppercase; margin-bottom:0.5rem;">
+              Van Dispatch Control
+            </div>
+            <div style="font-size:1.1rem; font-weight:700; margin-bottom:1rem; color:var(--color-navy);">
+              Daily Morning Reconciliation
+            </div>
+            <div style="font-size:0.88rem; color:var(--color-text-muted); line-height:1.6;">
+              Drivers verify crate counts via handheld barcode scanner before dispatch. Returns at 5:00 PM are balanced automatically in under 15 minutes.
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Approvals -->
+        <div class="grid grid-2" id="approvals" style="align-items:center; margin-bottom:4rem; gap:2.5rem;">
+          <div style="background:white; border:1px solid var(--color-border); border-radius:var(--radius-xl); padding:2rem; box-shadow:var(--shadow-sm);" class="order-2; md:order-1">
+            <div style="font-weight:700; color:var(--color-teal); font-size:0.85rem; text-transform:uppercase; margin-bottom:0.5rem;">
+              Credit Exception Engine
+            </div>
+            <div style="font-size:1.1rem; font-weight:700; margin-bottom:1rem; color:var(--color-navy);">
+              Eliminate Price Overrides
+            </div>
+            <div style="font-size:0.88rem; color:var(--color-text-muted); line-height:1.6;">
+              When a field rep requests a 3% volume discount or an extended credit limit for an A-tier supermarket, the manager receives a push notification and approves it within 45 seconds.
+            </div>
+          </div>
+          <div class="order-1 md:order-2">
+            <span class="section-tag teal">Module 2 · Commercial Control</span>
+            <h3 style="font-size:1.85rem; margin-bottom:1rem;">Manager Approvals &amp; Credit Controls</h3>
+            <p style="color:var(--color-text-muted); line-height:1.7;">
+              Sales reps in the field cannot arbitrarily discount or exceed customer credit lines. All threshold breaches trigger automated approval tickets to the territory sales manager with one-tap WhatsApp and in-app sign-off.
+            </p>
+            <ul style="font-size:0.9rem; line-height:1.8; margin-bottom:1.5rem; padding-left:1.25rem;">
+              <li><strong>Credit Limit Enforcement:</strong> Blocks dispatch if an account has unpaid 30-day invoices.</li>
+              <li><strong>Discount Threshold Gates:</strong> Multi-tiered authorization based on rep seniority.</li>
+              <li><strong>Complete Audit Log:</strong> Every price modification recorded with manager timestamp.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 3. Audits -->
+        <div class="grid grid-2" id="audits" style="align-items:center; margin-bottom:4rem; gap:2.5rem;">
+          <div>
+            <span class="section-tag teal">Module 3 · Merchandising</span>
+            <h3 style="font-size:1.85rem; margin-bottom:1rem;">Retail Shelf Space Audits &amp; Share of Shelf</h3>
+            <p style="color:var(--color-text-muted); line-height:1.7;">
+              Turn your merchandising reps into frontline intelligence agents. Capture high-resolution photo audits of retail gondolas, calculate facings vs competitor brands, and verify promotional POS displays.
+            </p>
+            <ul style="font-size:0.9rem; line-height:1.8; margin-bottom:1.5rem; padding-left:1.25rem;">
+              <li><strong>Planogram Compliance:</strong> Side-by-side comparison of ideal vs actual shelf facings.</li>
+              <li><strong>Competitor Price Tag Capture:</strong> Log rival promotions and retail prices in real time.</li>
+              <li><strong>Out-of-Stock (OOS) Alerts:</strong> Automated re-order triggers when shelves drop below safety stock.</li>
+            </ul>
+          </div>
+          <div style="background:white; border:1px solid var(--color-border); border-radius:var(--radius-xl); padding:2rem; box-shadow:var(--shadow-sm);">
+            <div style="font-weight:700; color:var(--color-teal); font-size:0.85rem; text-transform:uppercase; margin-bottom:0.5rem;">
+              Shelf Share Analytics
+            </div>
+            <div style="font-size:1.1rem; font-weight:700; margin-bottom:1rem; color:var(--color-navy);">
+              Visual Merchandising Proof
+            </div>
+            <div style="font-size:0.88rem; color:var(--color-text-muted); line-height:1.6;">
+              Photos are geotagged and timestamped. Sales directors can audit 100 retail outlets in Westlands or Industrial Area from their central dashboard.
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. Collections -->
+        <div class="grid grid-2" id="collections" style="align-items:center; margin-bottom:4rem; gap:2.5rem;">
+          <div style="background:white; border:1px solid var(--color-border); border-radius:var(--radius-xl); padding:2rem; box-shadow:var(--shadow-sm);"class= "order-2 md:order-1">
+            <div style="font-weight:700; color:var(--color-teal); font-size:0.85rem; text-transform:uppercase; margin-bottom:0.5rem;">
+              Cashless FMCG
+            </div>
+            <div style="font-size:1.1rem; font-weight:700; margin-bottom:1rem; color:var(--color-navy);">
+              Zero Cash Handling in Vans
+            </div>
+            <div style="font-size:0.88rem; color:var(--color-text-muted); line-height:1.6;">
+              The driver selects the order, triggers M-Pesa STK push to the shopkeeper's phone, and the receipt prints via Bluetooth printer in seconds.
+            </div>
+          </div>
+          <div class="order-1 md:order-2">
+            <span class="section-tag teal">Module 4 · Revenue Security</span>
+            <h3 style="font-size:1.85rem; margin-bottom:1rem;">Cashless M-Pesa Collections &amp; Instant Balancing</h3>
+            <p style="color:var(--color-text-muted); line-height:1.7;">
+              Eliminate van robbery risk and cash leakage. Enable your drivers and sales reps to collect payments via integrated M-Pesa STK push, Till payments, or bank wire confirmations with instant ERP reconciliation.
+            </p>
+            <ul style="font-size:0.9rem; line-height:1.8; margin-bottom:1.5rem; padding-left:1.25rem;">
+              <li><strong>Automated STK Push:</strong> Prompts the merchant immediately for PIN authorization.</li>
+              <li><strong>Instant ERP Reconciliation:</strong> Integrates with SAP, QuickBooks, and Microsoft Dynamics.</li>
+              <li><strong>Daily Z-Report Balancing:</strong> End-of-day van accounting settled in 15 minutes.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ROLE VIEWS GRID (REQUIRED BY BRIEF PAGE 14) -->
+    <section class="section section-bg-white">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag teal">Persona Architecture</span>
+          <h2>Tailored Role Views for Every Stakeholder</h2>
+          <p class="lead">Built for clarity across your entire organization, from the boardroom to the driver's cab.</p>
+        </div>
+
+        <div class="role-grid">
+          <!-- Role 1: CEO -->
+          <div class="role-card">
+            <span class="role-badge badge-ceo">Chief Executive / Managing Director</span>
+            <h3 style="font-size:1.2rem; margin-bottom:0.75rem;">Executive Overview</h3>
+            <ul style="font-size:0.85rem; color:var(--color-text-muted); line-height:1.7; padding-left:1.2rem; margin-bottom:1.5rem;">
+              <li>Real-time company gross margin &amp; revenue pacing.</li>
+              <li>Van inventory shrinkage &amp; cash discrepancy alerts.</li>
+              <li>Territory market share vs competitor density.</li>
+              <li>Executive daily summary email at 6:30 PM.</li>
+            </ul>
+            <div style="margin-top:auto; font-size:0.8rem; font-weight:700; color:var(--color-navy);">
+              Impact: Complete commercial visibility.
+            </div>
+          </div>
+
+          <!-- Role 2: Sales Manager -->
+          <div class="role-card">
+            <span class="role-badge badge-manager">Head of Sales &amp; Distribution</span>
+            <h3 style="font-size:1.2rem; margin-bottom:0.75rem;">Tactical Territory Control</h3>
+            <ul style="font-size:0.85rem; color:var(--color-text-muted); line-height:1.7; padding-left:1.2rem; margin-bottom:1.5rem;">
+              <li>Live sales team target vs achievement tracking.</li>
+              <li>Route adherence &amp; skipped customer audit alerts.</li>
+              <li>Instant price and credit discount exception approvals.</li>
+              <li>Rep leaderboard &amp; commission calculation engine.</li>
+            </ul>
+            <div style="margin-top:auto; font-size:0.8rem; font-weight:700; color:var(--color-navy);">
+              Impact: Accountable sales reps.
+            </div>
+          </div>
+
+          <!-- Role 3: Field Supervisor -->
+          <div class="role-card">
+            <span class="role-badge badge-supervisor">Route Supervisor / Dispatcher</span>
+            <h3 style="font-size:1.2rem; margin-bottom:0.75rem;">Daily Fleet Operations</h3>
+            <ul style="font-size:0.85rem; color:var(--color-text-muted); line-height:1.7; padding-left:1.2rem; margin-bottom:1.5rem;">
+              <li>Live GPS map of van locations and delivery status.</li>
+              <li>Morning warehouse dispatch &amp; evening returns balancing.</li>
+              <li>Instant verification of proof-of-delivery photos.</li>
+              <li>Driver break &amp; fuel stop geofence tracking.</li>
+            </ul>
+            <div style="margin-top:auto; font-size:0.8rem; font-weight:700; color:var(--color-navy);">
+              Impact: 15-minute van check-in.
+            </div>
+          </div>
+
+          <!-- Role 4: Field Sales Rep -->
+          <div class="role-card">
+            <span class="role-badge badge-rep">Field Rep / Van Sales Driver</span>
+            <h3 style="font-size:1.2rem; margin-bottom:0.75rem;">Mobile Android App</h3>
+            <ul style="font-size:0.85rem; color:var(--color-text-muted); line-height:1.7; padding-left:1.2rem; margin-bottom:1.5rem;">
+              <li>Offline-first catalog with barcode camera scanner.</li>
+              <li>Instant M-Pesa STK push payment collection.</li>
+              <li>Customer order history &amp; credit balance glance.</li>
+              <li>Bluetooth portable thermal receipt printing.</li>
+            </ul>
+            <div style="margin-top:auto; font-size:0.8rem; font-weight:700; color:var(--color-navy);">
+              Impact: Zero paperwork in the van.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 14-DAY IMPLEMENTATION ROADMAP (REQUIRED BY BRIEF PAGE 14) -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag teal">Fast Deployment</span>
+          <h2>14-Day Implementation Roadmap</h2>
+          <p class="lead">We deploy, import master data, train your drivers, and go live without interrupting your daily business operations.</p>
+        </div>
+
+        <div class="roadmap-timeline">
+          <div class="roadmap-step">
+            <div class="step-number">01</div>
+            <div class="step-days">Days 1–3</div>
+            <h4 style="font-size:1.05rem; margin-bottom:0.5rem;">Discovery &amp; SKU Import</h4>
+            <p style="font-size:0.82rem; color:var(--color-text-muted); margin-bottom:0;">
+              Import products, SKU barcodes, pricing tiers, and existing customer master lists from Excel/ERP.
+            </p>
+          </div>
+
+          <div class="roadmap-step">
+            <div class="step-number">02</div>
+            <div class="step-days">Days 4–7</div>
+            <h4 style="font-size:1.05rem; margin-bottom:0.5rem;">Route &amp; Territory Zoning</h4>
+            <p style="font-size:0.82rem; color:var(--color-text-muted); margin-bottom:0;">
+              Map driver beats, geofence retail zones, and configure manager approval hierarchies.
+            </p>
+          </div>
+
+          <div class="roadmap-step">
+            <div class="step-number">03</div>
+            <div class="step-days">Days 8–10</div>
+            <h4 style="font-size:1.05rem; margin-bottom:0.5rem;">Hardware &amp; App Setup</h4>
+            <p style="font-size:0.82rem; color:var(--color-text-muted); margin-bottom:0;">
+              Install Android APKs, pair Bluetooth receipt printers, and configure offline SQLite sync caches.
+            </p>
+          </div>
+
+          <div class="roadmap-step">
+            <div class="step-number">04</div>
+            <div class="step-days">Days 11–12</div>
+            <h4 style="font-size:1.05rem; margin-bottom:0.5rem;">Hands-on Rep Training</h4>
+            <p style="font-size:0.82rem; color:var(--color-text-muted); margin-bottom:0;">
+              In-person field training with your drivers, supervisors, and warehouse dispatchers in Nairobi.
+            </p>
+          </div>
+
+          <div class="roadmap-step">
+            <div class="step-number">05</div>
+            <div class="step-days">Days 13–14</div>
+            <h4 style="font-size:1.05rem; margin-bottom:0.5rem;">Live Shadow Go-Live</h4>
+            <p style="font-size:0.82rem; color:var(--color-text-muted); margin-bottom:0;">
+              BYN engineers ride along in delivery vans to ensure 100% operational success and seamless balancing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECURITY & HOSTING ARCHITECTURE (REQUIRED BY BRIEF PAGE 14) -->
+    <section class="section section-bg-white">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag teal">Enterprise Infrastructure</span>
+          <h2>Enterprise Security, Privacy &amp; Hosting Architecture</h2>
+          <p class="lead">Built to protect proprietary distribution data and adhere to Kenyan data sovereignty standards.</p>
+        </div>
+
+        <div class="grid grid-3">
+          <div style="background:var(--color-surface); border:1px solid var(--color-border); padding:1.75rem; border-radius:var(--radius-xl);">
+            <div style="font-size:2rem; margin-bottom:0.5rem;">🔒</div>
+            <h4 style="font-size:1.15rem; margin-bottom:0.5rem;">Kenya ODPC Compliant</h4>
+            <p style="font-size:0.85rem; color:var(--color-text-muted); line-height:1.6; margin-bottom:0;">
+              Build Your Name is a registered Data Controller with the Office of the Data Protection Commissioner (ODPC Kenya). Client customer records are encrypted at rest with AES-256.
+            </p>
+          </div>
+
+          <div style="background:var(--color-surface); border:1px solid var(--color-border); padding:1.75rem; border-radius:var(--radius-xl);">
+            <div style="font-size:2rem; margin-bottom:0.5rem;">☁️</div>
+            <h4 style="font-size:1.15rem; margin-bottom:0.5rem;">Isolated Cloud Instances</h4>
+            <p style="font-size:0.85rem; color:var(--color-text-muted); line-height:1.6; margin-bottom:0;">
+              Every enterprise deployment operates within its own isolated container or dedicated database instance. Zero data co-mingling between competing brands.
+            </p>
+          </div>
+
+          <div style="background:var(--color-surface); border:1px solid var(--color-border); padding:1.75rem; border-radius:var(--radius-xl);">
+            <div style="font-size:2rem; margin-bottom:0.5rem;">📶</div>
+            <h4 style="font-size:1.15rem; margin-bottom:0.5rem;">Offline-First SQLite Sync</h4>
+            <p style="font-size:0.85rem; color:var(--color-text-muted); line-height:1.6; margin-bottom:0;">
+              Drivers can issue invoices with 0 bars of cell reception. The moment the phone connects to 3G/4G or Wi-Fi, background sync reconciles records with conflict-resolution rules.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIVE DEMO FORM SECTION (#demo) -->
+    <section class="section" id="demo">
+      <div class="container container-narrow">
+        <div style="background:white; border:1px solid var(--color-border); border-radius:var(--radius-2xl); padding:3rem; box-shadow:var(--shadow-lg);">
+          <div style="text-align:center; margin-bottom:2rem;">
+            <span class="section-tag teal">Schedule Demonstration</span>
+            <h2>Book a Tailored 20-Minute BYN SFA Demo</h2>
+            <p class="lead" style="margin-bottom:0;">
+              We will set up a live sandbox customized with your product categories, van fleet size, and route territories.
+            </p>
+          </div>
+
+          <form id="sfaPageDemoForm" onsubmit="handleSfaDemoSubmit(event);">
+            <div class="form-group">
+              <label class="form-label" for="pageSfaName">Your Full Name *</label>
+              <input type="text" id="pageSfaName" class="form-control" placeholder="e.g. Grace Wanjiku" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="pageSfaCompany">Company / Distributor Name *</label>
+              <input type="text" id="pageSfaCompany" class="form-control" placeholder="e.g. Rift Valley Beverages Ltd" required>
+            </div>
+
+            <div class="grid grid-2">
+              <div class="form-group">
+                <label class="form-label" for="pageSfaPhone">Phone / WhatsApp Number *</label>
+                <input type="tel" id="pageSfaPhone" class="form-control" placeholder="e.g. +254 712 345 678" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="pageSfaEmail">Work Email Address *</label>
+                <input type="email" id="pageSfaEmail" class="form-control" placeholder="e.g. grace@riftvalleybev.co.ke" required>
+              </div>
+            </div>
+
+            <div class="grid grid-2">
+              <div class="form-group">
+                <label class="form-label" for="pageSfaFleet">Active Sales Vans / Reps *</label>
+                <select id="pageSfaFleet" class="form-control" required>
+                  <option value="">Select Fleet Size</option>
+                  <option value="1-5">1 – 5 Vans (Tier 1)</option>
+                  <option value="6-20">6 – 20 Vans (Tier 2)</option>
+                  <option value="21-50">21 – 50 Vans (Tier 3)</option>
+                  <option value="50+">50+ Vans (Enterprise)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="pageSfaProduct">Distribution Industry *</label>
+                <input type="text" id="pageSfaProduct" class="form-control" placeholder="e.g. FMCG Food, Beverages, Pharma" required>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="pageSfaNotes">Primary Challenge (Optional)</label>
+              <textarea id="pageSfaNotes" class="form-control" rows="3" placeholder="e.g. Driver cash reconciliation, stock leakage in vans, shelf merchandising audits..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-teal btn-lg btn-block" style="margin-top:1rem;">
+              Confirm SFA Demo Booking 🚀
+            </button>
+          </form>
+
+          <div style="text-align:center; margin-top:1.5rem; font-size:0.85rem; color:var(--color-text-muted);">
+            Prefer to chat directly? <a href="#" data-whatsapp-msg="SFA: Hello BYN team, I would like to schedule an SFA demonstration." class="text-teal" style="font-weight:700;">Connect on WhatsApp →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- SITE FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="grid grid-4">
+        <div>
+          <div style="display:flex; align-items:center; gap:0.6rem; margin-bottom:1rem;">
+            <div class="brand-icon-box" style="background:var(--color-teal); color:white;">#B</div>
+            <span style="font-family:var(--font-heading); font-weight:800; font-size:1.25rem; color:white;">Build Your Name</span>
+          </div>
+          <p style="font-size:0.85rem; line-height:1.7;">
+            #BYN is East Africa's leading digital engineering agency and SFA software provider. Structure. Clarity. Confidence.
+          </p>
+          <div style="font-size:0.82rem; margin-top:1rem; color:rgba(255,255,255,0.6);">
+            📍 Headquarters: 10 Nanyuki Rd, Industrial Area, Nairobi, Kenya<br>
+            📞 <a href="tel:+254725242203" style="color:rgba(255,255,255,0.85);">+254 725 242 203</a><br>
+            ✉️ sales@buildyourname.africa
+          </div>
+        </div>
+
+        <div>
+          <h4>Services Hub</h4>
+          <ul class="footer-links-list">
+            <li><a href="services.html#web-design">Website Design &amp; Rebuild</a></li>
+            <li><a href="services.html#ecommerce">eCommerce &amp; M-Pesa</a></li>
+            <li><a href="services.html#seo">SEO &amp; Google Map Ranking</a></li>
+            <li><a href="services.html#ads">Google Ads &amp; Conversion</a></li>
+            <li><a href="services.html#gis">Location Intelligence (GIS)</a></li>
+            <li><a href="services.html#care">Website Care &amp; Security</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>BYN SFA Platform</h4>
+          <ul class="footer-links-list">
+            <li><a href="sfa.html#deliveries">Smart Van Deliveries</a></li>
+            <li><a href="sfa.html#approvals">Manager Credit Approvals</a></li>
+            <li><a href="sfa.html#audits">Retail Shelf Audits</a></li>
+            <li><a href="sfa.html#collections">Cashless Collections</a></li>
+            <li><a href="sfa.html#demo">Book SFA 20-min Demo</a></li>
+            <li><a href="pricing.html#sfa">BYN SFA Pricing</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Company</h4>
+          <ul class="footer-links-list">
+            <li><a href="about.html">About &amp; Verified Fact Sheet</a></li>
+            <li><a href="work.html">Work (6 Real Case Studies)</a></li>
+            <li><a href="pricing.html">Pricing &amp; 4 Bundles</a></li>
+            <li><a href="insights.html">Insights &amp; Editorial Blog</a></li>
+            <li><a href="free-website-check.html">Free Website Speed Check</a></li>
+            <li><a href="contact.html">Contact &amp; Map</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Build Your Name Ltd (#BYN). Registered Data Controller with Kenya ODPC. 10 Nanyuki Rd, Industrial Area, Nairobi.
+        </div>
+        <div style="display:flex; align-items:center; gap:1.5rem; flex-wrap:wrap;">
+          <div class="footer-pagespeed-badge">
+            ⚡ Live Performance: 96/100 Mobile | LCP 1.1s | 0ms CLS
+          </div>
+          <div class="footer-legal-links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="privacy.html#cookies">Cookie Settings</a>
+            <a href="terms.html">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MOBILE BOTTOM STICKY ACTION BAR -->
+  <nav class="mobile-action-bar" aria-label="Mobile Quick Actions">
+    <a href="tel:+254725242203" class="mobile-action-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+      <span>Call</span>
+    </a>
+    <a href="#" class="mobile-action-item highlight" data-whatsapp-msg="SFA: Hello BYN, I would like to schedule an SFA demonstration.">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.536 1.916.824 3.149.824 3.182 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.666-5.768-5.666zm3.366 8.243c-.144.405-.837.774-1.17.824-.312.045-.698.077-2.227-.557-1.809-.751-2.95-2.593-3.04-2.713-.09-.12-1.218-1.62-1.218-3.09 0-1.47 1.144-2.186 1.488-2.316.144-.055.385-.11.554-.11.168 0 .337.006.482.02.155.014.36-.059.564.43.208.498.71 1.733.771 1.859.06.126.101.274.015.441-.085.168-.129.274-.255.421-.127.147-.267.329-.381.442-.127.126-.26.263-.112.518.148.255.658 1.087 1.411 1.758.969.864 1.785 1.132 2.04 1.258.255.126.405.105.555-.067.15-.173.642-.746.812-1.002.17-.257.34-.213.573-.127.234.085 1.488.702 1.744.829.255.127.425.191.488.297.064.106.064.615-.08 1.02z"/></svg>
+      <span>WhatsApp</span>
+    </a>
+    <a href="free-website-check.html" class="mobile-action-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+      <span>Speed Check</span>
+    </a>
+    <a href="#demo" class="mobile-action-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+      <span>SFA Demo</span>
+    </a>
+  </nav>
+
+  <script src="js/main.js"></script>
+  <script>
+    function handleSfaDemoSubmit(e) {
+      e.preventDefault();
+      const name = document.getElementById('pageSfaName').value;
+      const company = document.getElementById('pageSfaCompany').value;
+      const phone = document.getElementById('pageSfaPhone').value;
+      const fleet = document.getElementById('pageSfaFleet').value;
+      const product = document.getElementById('pageSfaProduct').value;
+      
+      const msg = `DEMO: Hello BYN SFA Team, my name is ${name} from ${company}. We distribute ${product} across ${fleet} vans. Phone: ${phone}. I would like to confirm our 20-min SFA demo.`;
+      const url = `https://wa.me/254725242203?text=${encodeURIComponent(msg)}`;
+      window.open(url, '_blank');
+    }
+  </script>
+</body>
+</html>

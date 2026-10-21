@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found (404) | Build Your Name (#BYN)</title>
+  <meta name="description" content="The page you were looking for could not be found. Explore our high-performance digital services, BYN SFA software, or chat with our Nairobi team directly.">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .error-hero {
+      text-align: center;
+      padding: 5rem 1rem;
+    }
+    .error-code {
+      font-size: clamp(5rem, 12vw, 8rem);
+      font-weight: 900;
+      line-height: 1;
+      color: var(--color-navy);
+      letter-spacing: -0.05em;
+      margin-bottom: 0.5rem;
+    }
+    .error-code span {
+      color: var(--color-gold);
+    }
+    .popular-links-box {
+      background: white;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-xl);
+      padding: 2.5rem;
+      max-width: 760px;
+      margin: 2.5rem auto 0 auto;
+      text-align: left;
+      box-shadow: var(--shadow-sm);
+    }
+    .popular-links-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.25rem;
+      margin-top: 1.5rem;
+    }
+    .popular-link-card {
+      padding: 1rem;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      transition: all var(--transition-fast);
+      display: block;
+      color: var(--color-navy);
+      text-decoration: none;
+    }
+    .popular-link-card:hover {
+      background: var(--color-surface);
+      border-color: var(--color-teal);
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Accessible Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-notice-bar">
+    <div class="container top-notice-content">
+      <div>
+        <span>🏛️ <strong>Official Site:</strong> Build Your Name (#BYN) Nairobi Headquarters</span>
+      </div>
+      <div style="display:flex; align-items:center; gap:1.2rem;">
+        <a href="tel:+254725242203" style="color:rgba(255,255,255,0.9); font-weight:600;">📞 +254 725 242 203</a>
+        <a href="#" data-whatsapp-msg="GROWTH: Hello BYN, I hit a missing link and would like some help." class="text-gold" style="font-weight:700;">WhatsApp Direct →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Site Header with Mega Menu -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="Build Your Name Homepage">
+        <div class="brand-icon-box">#B</div>
+        <div class="brand-text">
+          <span class="brand-title">Build Your Name</span>
+          <span class="brand-tagline">Structure. Clarity. Confidence.</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" aria-label="Primary Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="sfa.html" class="nav-link">BYN SFA <span class="nav-badge">Software</span></a>
+        <a href="pricing.html" class="nav-link">Pricing</a>
+        <a href="work.html" class="nav-link">Work</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="insights.html" class="nav-link">Insights</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="sfa.html#demo" class="btn btn-sm btn-outline-teal">Book Demo</a>
+        <button class="btn btn-sm btn-gold" data-whatsapp-msg="Hi BYN — I need some assistance finding a page on your site.">
+          WhatsApp Us
+        </button>
+        <button class="mobile-toggle" id="mobileNavToggle" aria-label="Open mobile menu" aria-expanded="false">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav" id="mobileNavDrawer" aria-hidden="true">
+    <div class="mobile-nav-header">
+      <div style="display:flex; align-items:center; gap:0.6rem;">
+        <div class="brand-icon-box">#B</div>
+        <span style="font-family:var(--font-heading); font-weight:800; font-size:1.2rem;">Build Your Name</span>
+      </div>
+      <button id="mobileNavClose" style="background:none; border:none; color:white; font-size:1.8rem; cursor:pointer;" aria-label="Close menu">&times;</button>
+    </div>
+
+    <div class="mobile-nav-list">
+      <a href="index.html" class="mobile-nav-link">Home <span>→</span></a>
+      <a href="services.html" class="mobile-nav-link">Services Hub <span>→</span></a>
+      <a href="sfa.html" class="mobile-nav-link">BYN SFA Software <span>→</span></a>
+      <a href="pricing.html" class="mobile-nav-link">Pricing &amp; Bundles <span>→</span></a>
+      <a href="work.html" class="mobile-nav-link">Case Studies <span>→</span></a>
+      <a href="about.html" class="mobile-nav-link">About Us <span>→</span></a>
+      <a href="insights.html" class="mobile-nav-link">Insights <span>→</span></a>
+      <a href="free-website-check.html" class="mobile-nav-link">Free Speed Check <span>→</span></a>
+      <a href="contact.html" class="mobile-nav-link">Contact <span>→</span></a>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <div class="container error-hero">
+      <div class="error-code">4<span>0</span>4</div>
+      <h1 style="font-size:clamp(1.75rem, 3.5vw, 2.5rem); margin-bottom:1rem;">We couldn't find that page.</h1>
+      <p class="lead" style="max-width:600px; margin:0 auto; color:var(--color-text-muted);">
+        The link may be outdated, or the address might have moved during our recent website upgrade. Let's get you back on track.
+      </p>
+
+      <div style="margin-top:2rem; display:flex; justify-content:center; gap:1rem; flex-wrap:wrap;">
+        <a href="index.html" class="btn btn-navy btn-lg">Return to Homepage</a>
+        <button class="btn btn-gold btn-lg" data-whatsapp-msg="Hello BYN, I reached a 404 page and need help finding what I was looking for.">
+          Chat on WhatsApp
+        </button>
+      </div>
+
+      <!-- Popular Destinations Box -->
+      <div class="popular-links-box">
+        <h3 style="font-size:1.2rem; margin-bottom:0.5rem;">Popular Pages</h3>0-[pom]
+        <p style="font-size:0.88rem; color:var(--color-text-muted); margin-bottom:0;">
+          Here are the most frequently requested sections of buildyourname.africa:
+        </p>
+
+        <div class="popular-links-grid">
+          <a href="services.html#web-design" class="popular-link-card">
+            <div style="font-weight:700; font-size:0.95rem;">Website Design</div>
+            <div style="font-size:0.8rem; color:var(--color-text-muted);">Sub-1.2s custom block sites</div>
+          </a>
+          <a href="sfa.html" class="popular-link-card">
+            <div style="font-weight:700; font-size:0.95rem;">BYN SFA Platform</div>
+            <div style="font-size:0.8rem; color:var(--color-text-muted);">Field sales &amp; van delivery software</div>
+          </a>
+          <a href="pricing.html" class="popular-link-card">
+            <div style="font-weight:700; font-size:0.95rem;">Official Pricing</div>
+            <div style="font-size:0.8rem; color:var(--color-text-muted);">Transparent KES packages &amp; bundles</div>
+          </a>
+          <a href="work.html" class="popular-link-card">
+            <div style="font-weight:700; font-size:0.95rem;">Verified Case Studies</div>
+            <div style="font-size:0.8rem; color:var(--color-text-muted);">6 authentic regional deployments</div>
+          </a>
+          <a href="insights.html" class="popular-link-card">
+            <div style="font-weight:700; font-size:0.95rem;">Insights &amp; Blog</div>
+            <div style="font-size:0.8rem; color:var(--color-text-muted);">Kenya web &amp; distribution benchmarks</div>
+          </a>
+          <a href="free-website-check.html" class="popular-link-card">
+            <div style="font-weight:700; font-size:0.95rem;">Free Speed Check</div>
+            <div style="font-size:0.8rem; color:var(--color-text-muted);">Test Core Web Vitals on 4G</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- SITE FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="grid grid-4">
+        <div>
+          <div style="display:flex; align-items:center; gap:0.6rem; margin-bottom:1rem;">
+            <div class="brand-icon-box" style="background:var(--color-teal); color:white;">#B</div>
+            <span style="font-family:var(--font-heading); font-weight:800; font-size:1.25rem; color:white;">Build Your Name</span>
+          </div>
+          <p style="font-size:0.85rem; line-height:1.7;">
+            #BYN is East Africa's leading digital engineering agency and SFA software provider. Structure. Clarity. Confidence.
+          </p>
+          <div style="font-size:0.82rem; margin-top:1rem; color:rgba(255,255,255,0.6);">
+            📍 Headquarters: 10 Nanyuki Rd, Industrial Area, Nairobi, Kenya<br>
+            📞 <a href="tel:+254725242203" style="color:rgba(255,255,255,0.85);">+254 725 242 203</a><br>
+            ✉️ sales@buildyourname.africa
+          </div>
+        </div>
+
+        <div>
+          <h4>Services Hub</h4>
+          <ul class="footer-links-list">
+            <li><a href="services.html#web-design">Website Design &amp; Rebuild</a></li>
+            <li><a href="services.html#ecommerce">eCommerce &amp; M-Pesa</a></li>
+            <li><a href="services.html#seo">SEO &amp; Google Map Ranking</a></li>
+            <li><a href="services.html#ads">Google Ads &amp; Conversion</a></li>
+            <li><a href="services.html#gis">Location Intelligence (GIS)</a></li>
+            <li><a href="services.html#care">Website Care &amp; Security</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>BYN SFA Platform</h4>
+          <ul class="footer-links-list">
+            <li><a href="sfa.html#deliveries">Smart Van Deliveries</a></li>
+            <li><a href="sfa.html#approvals">Manager Credit Approvals</a></li>
+            <li><a href="sfa.html#audits">Retail Shelf Audits</a></li>
+            <li><a href="sfa.html#collections">Cashless Collections</a></li>
+            <li><a href="sfa.html#demo">Book SFA 20-min Demo</a></li>
+            <li><a href="pricing.html#sfa">BYN SFA Pricing</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Company</h4>
+          <ul class="footer-links-list">
+            <li><a href="about.html">About &amp; Verified Fact Sheet</a></li>
+            <li><a href="work.html">Work (6 Real Case Studies)</a></li>
+            <li><a href="pricing.html">Pricing &amp; 4 Bundles</a></li>
+            <li><a href="insights.html">Insights &amp; Editorial Blog</a></li>
+            <li><a href="free-website-check.html">Free Website Speed Check</a></li>
+            <li><a href="contact.html">Contact &amp; Map</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 Build Your Name Ltd (#BYN). Registered Data Controller with Kenya ODPC. 10 Nanyuki Rd, Industrial Area, Nairobi.
+        </div>
+        <div style="display:flex; align-items:center; gap:1.5rem; flex-wrap:wrap;">
+          <div class="footer-pagespeed-badge">
+            ⚡ Live Performance: 96/100 Mobile | LCP 1.1s | 0ms CLS
+          </div>
+          <div class="footer-legal-links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="privacy.html#cookies">Cookie Settings</a>
+            <a href="terms.html">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
